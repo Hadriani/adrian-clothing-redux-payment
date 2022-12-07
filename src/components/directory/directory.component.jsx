@@ -7,33 +7,33 @@ const categories = [
     {
         id: 1,
         title: "Hats",
-        imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+        imageUrl: "https://cdn.shopify.com/s/files/1/1616/9825/files/IMG_5313_870x.jpg?v=1668011530",
         route: 'shop/hats'
     },
     {
         id: 2,
         title: "Jackets",
-        imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+        imageUrl: "https://thumbs.dreamstime.com/b/male-black-crown-clothes-hanger-store-new-collection-different-color-spring-leather-jackets-men-close-up-197115953.jpg",
         route: 'shop/jackets'
     },
     {
         id: 3,
         title: "Sneakers",
-        imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+        imageUrl: "https://i.pinimg.com/originals/2c/87/2a/2c872a3ac73237614fa7d3f46ee15990.jpg",
         route: 'shop/sneakers'
     },
     {
         id: 4,
         title: "Womens",
-        imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+        imageUrl: "https://thegenuineleather.com/wp-content/uploads/2022/11/Marla-Moore-Cupids-Christmas-Shearling-Jacket-1.webp",
         route: 'shop/womens'
     },
     {
         id: 5,
-        title: "Mens",
-        imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+        title: "Holiday Special",
+        imageUrl: "https://cdn.shopify.com/s/files/1/1616/9825/files/IMG_5215_870x.jpg?v=1667243078",
         route: 'shop/mens'
-    }
+    },
 ];
 
 const Directory = () => {
