@@ -24,7 +24,7 @@ export const FormInputLabel = styled.label`
 
 export const Input = styled.input`
     background: none;
-    background-color: white;
+    background-color: #fbf4e7;
     color: ${subColor};
     font-size: 18px;
     padding: 10px 10px 10px 5px;
