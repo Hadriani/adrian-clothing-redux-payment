@@ -20,7 +20,7 @@ const Checkout = () => {
                     <span>Description</span>
                 </div>
                 <div className='header-block'>
-                    <span>Quantity</span>
+                    <span className='headerquantity'>Quantity</span>
                 </div>
                 <div className='header-block'>
                     <span>Price</span>
@@ -33,8 +33,11 @@ const Checkout = () => {
                 {cartItems.map((cartItem) => (
                      <CheckoutItem key={cartItem.id} cartItem={cartItem} />
                 ))}
-
+            </div>
+            <div>
                 <span className='Total'>Total: ${cartTotal}</span>
+            </div>
+            <div className='paymentmobile'>
                 <PaymentForm />
             </div>
         </div>

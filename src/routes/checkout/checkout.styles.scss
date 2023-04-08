@@ -17,16 +17,51 @@
             text-transform: capitalize;
             width: 23%;
 
+            .headerquantity {
+                padding-left: 15px;
+            }
+
             &:last-child {
                 width: 8%;
+            }
+
+            @media screen and (max-width: 768px) {
+                width: 22%;
+            
+                &:last-child {
+                    width: 12%;
+                }
             }
         }
     }
 
     .total {
-        margin-top: 30px;
-        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
         font-size: 80px;
         align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .checkout-header {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 14px;
+
+        .header-block {
+            width: 100%;
+            text-align: center;
+
+            &:last-child {
+                width: auto;
+                text-align: left;
+            }
+        }
     }
 }

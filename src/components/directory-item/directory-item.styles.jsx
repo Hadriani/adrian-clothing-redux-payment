@@ -6,6 +6,10 @@ export const BackgroundImage = styled.div`
     background-size: cover;
     background-position: center;
     background-image: ${({imageUrl}) => `url(${imageUrl})`};
+
+    @media screen and (max-width: 768px) {
+        padding-bottom: 20px;
+    }
 `;
 
 export const Body = styled.div`
@@ -26,12 +30,18 @@ export const Body = styled.div`
         font-size: 22px;
         color: #4a4a4a;
         text-transform: uppercase;
+
+        @media screen and (max-width: 768px) {
+            font-size: 12px;
         }
+    }
+
 
     p {
         font-weight: lighter;
         font-size: 16px;
     }
+
 `;
 
 export const DirectoryItemComponent = styled.div`

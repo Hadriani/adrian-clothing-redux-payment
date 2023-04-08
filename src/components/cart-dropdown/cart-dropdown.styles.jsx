@@ -20,6 +20,10 @@ export const CardDropdownContainer = styled.div`
     ${InvertedButton} {
         margin-top: auto;
     }
+
+    @media screen and (max-width: 768px) {
+       height: -10px;
+    }
 `;
 
 export const EmptyMessage = styled.span`
